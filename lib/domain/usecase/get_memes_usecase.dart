@@ -6,7 +6,7 @@ import 'package:first_clean_atr/domain/entities/memes_entities.dart';
 import 'package:first_clean_atr/domain/respositories/memes_respositories.dart';
 
 class GetMemesUseCase implements UseCase<List<MemesEntities>, void> {
-  final MemesRespository memesRespository;
+  final MemesRespositorys memesRespository;
 
   GetMemesUseCase({required this.memesRespository});
 

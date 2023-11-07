@@ -5,7 +5,7 @@ import 'package:first_clean_atr/data/model/memes_model.dart';
 
 import 'package:first_clean_atr/domain/respositories/memes_respositories.dart';
 
-class MemeRepositoriesImpl implements MemesRespository {
+class MemeRepositoriesImpl implements MemesRespositorys {
   const MemeRepositoriesImpl({required this.memeDataSources});
   final MemesDataSources memeDataSources;
   @override
